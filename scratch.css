@@ -1,27 +1,26 @@
-body {
-  background-color: #f7f7f7;
-  background-image: url("background.jpg");
-  background-size: cover;
-  font-family: Arial, sans-serif;
-}
-
-h1 {
-  color: #333;
+main {
+  padding: 20px;
+  background-color: pink;
+  color: black;
   text-align: center;
-  margin-top: 50px;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 20px;
+main h1 {
+  margin: 50px 0 75px;
+  font-size: 100px;
+  text-decoration: underline;
+  text-decoration-thickness: 10px;
+  text-decoration-color: black;
+  text-underline-offset: 30px;
+  text-shadow: 5px 5px white;
 }
 
-ol {
-  list-style-type: decimal;
-  padding-left: 40px;
+h1 span.discography {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-img {
+main img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
@@ -29,23 +28,110 @@ img {
   margin-top: 50px;
 }
 
-iframe {
+main .iframe {
+  border-radius: inherit;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  background: white;
+}
+
+main .iframe article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 10;
+  pointer-events: none;
+}
+
+main .iframe article h2 {
+  font-size: 75px;
+  text-shadow: 5px 5px black;
+}
+
+main .iframe article p {
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+}
+
+main .iframe iframe {
   display: block;
-  margin: 0 auto;
-  margin-top: 50px;
-  width: 560px;
-  height: 315px;
   border: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  overflow: hidden;
+  z-index: 5;
 }
 
-a {
-  color: #333;
+main #image {
+  background-image: url("image.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 56.25%;
 }
 
-#section1 {
-  margin-top: 50px;
-  padding: 20px;
-  background-color: #fff;
+main a.jump {
+  color: pink;
+  font-size: 24px;
+  margin: 25px 50px 50px;
+  text-decoration: none;
+  background-color: black;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  padding: 20px 10px;
+  display: inline-block;
+  width: 500px;
+  box-shadow: 10px 10px white;
+  transition: box-shadow 250ms ease, transform 250ms ease;
+  will-change: box-shadow, transform;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main a.jump:hover {
+  box-shadow: 20px 20px white;
+  transform: translate(-10px, -10px);
+}
+
+main a.jump .arrow {
+  transition: transform 250ms ease;
+  will-change: transform;
+  display: inline-block;
+}
+
+main a.jump:hover .arrow {
+  transform: translateX(10px);
+}
+
+main #list {
+  background: white;
+  padding: 50px;
+  text-align: left;
+}
+
+main #list ol {
+  margin-top: 50px;
+}
+
+main #tableau {
+  background: whitesmoke;
+}
+
+main .tableauPlaceholder {
+  margin: 50px auto;
+  position: relative;
+}
+
+main > div { 
+  margin: 50px;
+  width: calc(100% - 100px);
+  border-radius: 10px;
+  overflow: hidden;
 }
