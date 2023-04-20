@@ -9,9 +9,11 @@
     "startCommand": "npm start"
   },
   "scripts": {
-    "start": "sirv --dev --no-clear --port 3000"
+    "start": "sirv --dev --no-clear --port 3000",
+    "style": "prettier * --write"
   },
   "devDependencies": {
+    "prettier": "^2.8.7",
     "sirv-cli": "^2.0.2"
   }
 }

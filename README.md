@@ -24,6 +24,7 @@ We have intentionally kept the requirements for this website somewhat loose so t
 Requirements:
 
 In general:
+
 - The site must be professional in appearance. We will deduct points for clear aesthetic errors anywhere on your site that reduce readability or are distracting. These include, but are not limited to:
   - blue text on red background is atrocious
   - animated gif backgrounds are horrific
@@ -45,7 +46,7 @@ In general:
 - Styles that specify font family
 - At least three divs that are positioned and styled using your styles
 - A live and interactive embedded Tableau graph (not just a picture of one).
-This graph can be about anything. It doesn’t have to be a graph you created, although it certainly can be.
+  This graph can be about anything. It doesn’t have to be a graph you created, although it certainly can be.
 - A quick Google search will show you where to find cool Tableau visualizations.
-Navigation back to the professional-looking pages.
+  Navigation back to the professional-looking pages.
 - Your professional-looking pages do not need to link to this page. This way you can use the professional side for whatever you want without worrying someone might find this DIY page…
